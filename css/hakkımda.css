@@ -1,0 +1,96 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top:36px;
+}
+.buton{
+    background-color: #ffb367;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 1s ease-in-out;
+    
+}
+.buton:hover{
+    transform: rotate(360deg);
+    
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container3{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: black;
+    border: 1px solid ;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+    font-size: 28px;
+    text-align: center;
+    margin-top:40px;   
+}
+
+p{
+    padding: 24px;
+}
+.header2{
+    
+ background-color: #58b4ae;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+   font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 75px;
+    
+}
+#navbar h1{
+     letter-spacing: 1px;
+     font-size: 18px;
+}
+#navbar h1:hover{
+    
+    font-size: 25px;
+    transition-duration: 0.5s;
+}
+
+#navbar ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+#navbar ul li a{
+    padding:0.75rem;
+     letter-spacing: 1px;
+}
+
+#navbar ul li a:hover{
+    background-color:azure;
+    border-radius: 7px;
+    transition-duration: 0.8s;
+    color: #58b4ae;
+    
+}
